@@ -75,7 +75,7 @@ $(document).ready(function () {
     }
 
     function set_holder_height(holder, ht) {
-        ht = 50 - (ht * 4.7);
+        ht = 50 - (ht * 5);
         $(holder).css("top", ht + "vh")
         //console.log("Holder="+holder.id+" bottom="+ht+"vh");
     }
